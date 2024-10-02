@@ -11,6 +11,12 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.3
         version: 0.9.3(typescript@5.6.2)
+      '@fontsource-variable/noto-serif-display':
+        specifier: ^5.1.0
+        version: 5.1.0
+      '@fontsource-variable/roboto-slab':
+        specifier: ^5.1.0
+        version: 5.1.0
       astro:
         specifier: ^4.15.9
         version: 4.15.9(rollup@4.22.4)(typescript@5.6.2)
@@ -314,6 +320,12 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/noto-serif-display@5.1.0':
+    resolution: {integrity: sha512-1nTxKhE1dQ7MdnBKxDcekZW8JNAUyuMve48C4GfPFc8423vGlSjXbMglIGDQn9NcL9rcXH0z2+H9VnCSDfj55A==}
+
+  '@fontsource-variable/roboto-slab@5.1.0':
+    resolution: {integrity: sha512-yDXymBKjK3CPrtaS8WbT9kOIWeSl3N5xaW8odaXOPZk9vhbWe/fO9e4VUG8T7ZYRR+RoRtwNWZ7gE4a5lqEIIQ==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2187,6 +2199,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fontsource-variable/noto-serif-display@5.1.0': {}
+
+  '@fontsource-variable/roboto-slab@5.1.0': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:

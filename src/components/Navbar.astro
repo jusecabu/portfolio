@@ -1,0 +1,47 @@
+---
+import Logo from '../images/sc_logo.svg'
+import {Image} from 'astro:assets'
+---
+
+<nav>
+	<Image src={Logo} alt='SC logo' width={100}/>
+    <div class="links">
+        <div>
+            <a href="">About</a>
+        </div>
+        <div>
+            <a href="">Skills</a>
+        </div>
+        <div>
+            <a href="">Projects</a>
+        </div>
+    </div>
+</nav>
+
+<style>
+    nav {
+        margin: 3rem 0;
+        padding: 3rem 2rem;
+        border-right: 2px solid grey;
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        div {
+            display: flex;
+            justify-content: end;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+    }
+</style>
